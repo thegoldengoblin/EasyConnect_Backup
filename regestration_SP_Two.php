@@ -136,7 +136,7 @@ require_once "common/commonLibs.php";
 
            <!--Form Styling--> 
           <div class="d-flex align-items-center h-custom-2 px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 mt-xl-n5">
-            <form style="width: 23rem;">
+            <form style="width: 23rem;" method="post" action="regestration_rofilePicture.php">
               
               <div class="space">
               <h3 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Office Address</h3>
@@ -236,7 +236,7 @@ require_once "common/commonLibs.php";
 
               <!--submit-->
               <div class="pt-1 mb-4">
-                <button class="btn btn-info btn-lg btn-block" type="button" id="registrationSubmit" href="regestration_rofilePicture.php">Continue</button>
+                <button class="btn btn-info btn-lg btn-block" type="submit" id="registrationSubmit">Continue</button>
               </div>
             </form>
           </div>

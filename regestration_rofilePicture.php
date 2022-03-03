@@ -37,7 +37,7 @@
 
           <div class="d-flex align-items-center h-custom-2 px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 mt-xl-n5">
 
-            <form>
+            <form id="formProfilePicture" name="formProfilePicture" method="post" action="regestration_SP_four.php">
               
               <br>
               
@@ -53,7 +53,7 @@
 
             </div>
 
-            <button class="btn btn-info btn-lg btn-block" type="button" onclick="location.href='regestration_SP_four.php'">Done</button>
+            <button class="btn btn-info btn-lg btn-block" type="submit">Done</button>
             <center>
               <p>Or<br><a href="" class="link-info">Skip For Now</a></p>
             </center>

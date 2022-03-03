@@ -57,7 +57,7 @@
           </div>
           <!--Form Styling-->
           <div class="d-flex align-items-center h-custom-2 px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 mt-xl-n5">
-            <form style="width: 23rem;" name="formForgotPassword">
+            <form style="width: 23rem;" name="formForgotPassword" method="post" action="password_Otp.php">
               <div class="space">
 
                 <!--Form Title-->
@@ -112,7 +112,7 @@
 
                 <!--submit-->
                 <div class="space">
-                  <button class="btn btn-info btn-lg btn-block" type="button" href="password_Otp.php">send reset link</button>
+                  <button class="btn btn-info btn-lg btn-block" type="submit">send reset link</button>
                 </div>
               </center>
             </form>

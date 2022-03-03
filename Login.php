@@ -59,7 +59,7 @@ src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"
 
           <!--Form Styling-->
           <div class="d-flex align-items-center h-custom-2 px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 mt-xl-n5">
-            <form style="width: 23rem;" name="formLogin">
+            <form style="width: 23rem;" name="formLogin" method="post" action="">
               <h3 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Log in</h3>
               <div class="space">
 
@@ -93,7 +93,7 @@ src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.js"
 
               <!--submit-->
               <div class="pt-1 mb-4">
-                <button class="btn btn-info btn-lg btn-block" type="button">Login</button>
+                <button class="btn btn-info btn-lg btn-block" type="submit">Login</button>
               </div>
 
               <!--Reset Password-->

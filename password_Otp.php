@@ -65,7 +65,7 @@
             
           <!--Form Styling-->
           <div class="d-flex align-items-center h-custom-2 px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 mt-xl-n5">
-            <form style="width: 23rem;" name="formResetPasswordOtp">
+            <form style="width: 23rem;" name="formResetPasswordOtp" action="set_new_password.php" method="post">
 
               <!--Form Title-->
               <h3 class="fw-normal mb-3 pb-3" style="font-family: Times New Roman,Serif;">Password Reset</h3>
@@ -97,7 +97,7 @@
               <div class="space">
               
               <!--submit-->
-              <button class="btn btn-info" type="button" href="set_new_password.php" >submit</button>
+              <button class="btn btn-info" type="submit">submit</button>
             </form>
           </div>
         </div>

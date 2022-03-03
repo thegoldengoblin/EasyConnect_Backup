@@ -51,7 +51,7 @@
           </div>
 
           <div class="d-flex align-items-center h-custom-2 px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 mt-xl-n5">
-            <form style="width: 23rem;">
+            <form style="width: 23rem;" method="post" action="regestration_SP_seven.php">
 
               <br>
 
@@ -96,7 +96,7 @@
               <div class="pt-1 mb-4">
 
                 <button class="btn btn-info " type="submit" href="regestration_SP_six.php">add more</button>
-                <button class="btn btn-info " type="submit" href="regestration_SP_seven.php">done</button>
+                <button class="btn btn-info " type="submit">done</button>
                 
               </div>
             </form>

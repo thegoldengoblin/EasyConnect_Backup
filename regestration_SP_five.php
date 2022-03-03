@@ -53,7 +53,7 @@
 
           <div class="d-flex align-items-center h-custom-2 px-5 ms-xl-4    mt-5 pt-5 pt-xl-0 mt-xl-n5">
 
-            <form style="width: 23rem;">
+            <form style="width: 23rem;" action="regestration_SP_six.php" method="post">
 
               <br>
 
@@ -65,7 +65,7 @@
                   <span class="px-2 small text-muted font-weight-bold">OR</span>
                   <div class="border-bottom w-100 mr-5"></div>
                 </div>
-                <button class="btn btn-info btn-block" type="button" href="regestration_SP_six.php">Continue</button>
+                <button class="btn btn-info btn-block" type="submit" >Continue</button>
               </center>
               </div>
             </form>

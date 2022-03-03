@@ -54,7 +54,7 @@
           </div>
           <!--Form Styling-->
           <div class="d-flex align-items-center h-custom-2 px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 mt-xl-n5">
-            <form style="width: 23rem;" id="formEmailVerification" name="formEmailVerification">
+            <form style="width: 23rem;" id="formEmailVerification" name="formEmailVerification" action="password_Otp.php">
               <div class="space">
               <h3 class="fw-normal mb-3 pb-3" style="font-family: Times New Roman,Serif;">Email Verification</h3>
               <center><i class="fas fa-envelope-open fa-2x" style="color:#ffeea4;" ></i><br><br>
@@ -77,7 +77,7 @@
               <div class="space">
 
               <!--submit-->
-              <button class="btn btn-info" type="button" href="password_Otp.php" >submit</button>
+              <button class="btn btn-info" type="submit">submit</button>
             </form>
           </div>
         </div>
